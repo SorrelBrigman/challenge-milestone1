@@ -2,11 +2,15 @@
 Nav Bar Styling
 ***/
 
+nav {
+  background-color: pink;
+
+}
+
 ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 li {
@@ -29,4 +33,22 @@ li a:hover {
 
 li a:active {
   padding: 0 5px;
+}
+
+/************
+Sticky Header Layout
+******/
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+  margin-bottom: 20px;
 }
