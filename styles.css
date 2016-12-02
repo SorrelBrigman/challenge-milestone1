@@ -1,0 +1,32 @@
+/*********
+Nav Bar Styling
+***/
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: blue;
+  background-color: pink;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
+
+li a:hover {
+  background-color: blue;
+}
+
+li a:active {
+  padding: 0 5px;
+}
